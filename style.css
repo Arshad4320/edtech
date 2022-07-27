@@ -8,10 +8,11 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.explorar img {
+.explorar img,
+.course-img img {
     height: 100%;
 }
 
-.course-img img {
-    height: 100%;
+.icon i {
+    color: gold
 }
