@@ -8,22 +8,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.bg-cover {
-    position: relative;
-}
-
-.cover-img::before {
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
+.course-img img {
     height: 100%;
-    position: absolute;
-    background-color: rgba(15, 4, 4, 0.679);
-    z-index: -1;
-}
-
-.course-content p,
-.course-title p {
-    color: rgb(94, 89, 89);
 }
