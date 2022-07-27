@@ -8,6 +8,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.explorar img {
+    height: 100%;
+}
+
 .course-img img {
     height: 100%;
 }

@@ -49,10 +49,13 @@
                         <a class="nav-link " href="">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link ">Register</a>
+                        <a href="#modal-rgistart" class="nav-link ">Register</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-success btn-lg">Register</button>
+                <button type="button" class="btn btn-success  btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Registar Now
+                </button>
             </div>
         </div>
     </nav>
@@ -98,7 +101,7 @@
                                     <h1 class="fw-bold fs-1 text-dark">Get Started Digital Learning</h1>
                                     <p class="text-dark">It is a long established fact that a reader will be distracted
                                         by the readable content of a page when looking at its layout..</p>
-                                    <button class="btn btn-success">Get Started</button>
+                                    <button class="btn btn-success fw-bold">Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +212,7 @@
                 </div>
             </div>
             <div class="cours-button text-center mb-5 py-4">
-                <button class="btn btn-success btn-lg">See More Courses</button>
+                <button class="btn btn-success btn-lg fw-bold">See More Courses</button>
             </div>
         </div>
     </section>
@@ -219,7 +222,7 @@
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-4 rounded ">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-4 rounded explorar">
                     <img class="img-fluid w-100" src="images/cover/img-1.jpg" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -227,7 +230,8 @@
                         <h1 class="fw-bold fs-2">Explore The elearning Institute</h1>
                         <p class="text-secondary">There are many variations of passages of Lorem Ipsum available, but
                             the
-                            majority have suffered alteration in some form, by injected humour, or randomised words
+                            majority have suffered alteration in some form, by injected humour,</p>
+                        <p class="text-secondary d-lg-block d-md-none">or randomised words
                             which don't look even slightly believable. If you are going
                             to use a passage of Lorem Ipsum, you need to be sure</p>
                     </div>
@@ -251,7 +255,70 @@
         </div>
     </section>
     <!-- explorer institue section start -->
+    <!-- join-sectin-start -->
+    <section id="modal-rgistart">
+        <div class="container bg-success rounded p-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="join-content  p-3 text-white">
+                        <h2 class="fw-bold">Ready to join?</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center">
+                    <!-- modal-part -->
+                    <button type="button" class="btn btn-success bg-white text-success" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Registar Now
+                    </button>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-center text-success fw-bold" id="exampleModalLabel">
+                                        welcome to our site
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- join-sectin-start -->
 
 
 
