@@ -22,3 +22,8 @@ body {
     background-color: rgba(15, 4, 4, 0.679);
     z-index: -1;
 }
+
+.course-content p,
+.course-title p {
+    color: rgb(94, 89, 89);
+}
