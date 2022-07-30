@@ -16,3 +16,7 @@ body {
 .icon i {
     color: gold
 }
+
+.opacity {
+    opacity: 0.5;
+}
